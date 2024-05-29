@@ -1,6 +1,8 @@
 # Comparative Analysis of SVM Performance on Colored vs. Grayscale CIFAR-10 Datasets
 <div style="text-align: right">Uday Kiran Dasari <br> </div>
 
+[How to Run](#how-to-run)
+
 ## Objective
 
 The primary objective of this project is to evaluate the performance of Support Vector Machine (SVM) classifiers on the CIFAR-10 dataset by comparing the effectiveness of models trained on colored images versus those trained on grayscale images. The goal is to determine which version of the dataset yields better classification results and to analyze the underlying reasons for any observed differences in performance.
@@ -59,3 +61,10 @@ Higher precision and recall in the colored dataset demonstrate improved performa
 
 ## Conclusion
 The analysis demonstrates that the SVM classifier achieves higher F1 scores when trained on the colored CIFAR-10 dataset compared to the grayscale version. This underscores the importance of color information in image classification tasks, enhancing the model's ability to distinguish between different objects. The reduction in classification performance with grayscale images highlights the loss of crucial features that color provides. This comparative study emphasizes the value of preserving color information for effective image classification using SVMs.
+
+
+## How to Run
+
+1. Clone the repository.
+2. Run the Python file to download the CIFAR dataset.
+3. Run the Jupyter notebook.
